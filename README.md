@@ -1,4 +1,4 @@
-# College Websit - FoXes
+# College Website - FoXes
 
 This is a comprehensive college website project developed using HTML, CSS, JavaScript, and SQL. The website includes various features tailored for student management and college information.
 
