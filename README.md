@@ -35,4 +35,5 @@ This is a comprehensive college website project developed using HTML, CSS, JavaS
 
 1. Clone the repository:
    ```bash
-   https://github.com/Aayush52-bot/CodezX
+   https://github.com/Aayush52-bot/FoXes-College
+  
