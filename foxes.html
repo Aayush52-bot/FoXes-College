@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ College</title>
+    <link rel="stylesheet" href="FoxesIndexCss.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to FoXes College</h1>
+        <nav>
+            <ul>
+                <li><a href="foxes.html">Home</a></li>
+                <li><a href="Foxeslogin.html">Student Login</a></li>
+                <li><a href="onlineaddmission.html">Online Admission</a></li> <!-- Updated link -->
+                <li><a href="Foxesaboutus.html">About Us</a></li>
+                <li><a href="Foxescontact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Your Future Begins Here</h2>
+        <p>Explore our courses and build your career with us.</p>
+        <a href="Foxesregistration.html" class="btn">Register Now</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 FoXes College. All rights reserved.</p>
+    </footer>
+    <script>
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(event) {
+                event.preventDefault();
+                const targetElement = document.querySelector(this.getAttribute('href'));
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
